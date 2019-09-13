@@ -26,7 +26,7 @@
         - [ ]een groene achtergrondkleur
         - de classes zijn al toegewezen aan de enkele tabel-rijen
     
-    - [ ] kies zelf welke films ja als 'goodmovie' aanduidt
+    - [ ] kies zelf welke films je als 'goodmovie' aanduidt
 
     - [ ] Geef de tabel zelf nog extra layout gebruik makend van het box-model, d.w.z.
         - [ ] Gebruik geen inline-style!
@@ -40,11 +40,16 @@
 
 -->
 
+<link rel="stylesheet" type="text/css" href="main.css"/>
 <head>
+    <title>Movies</title>
     <style>
         table td:hover {
         background-color: black;
         color: white;
+        }
+        .goodmovie {
+            background-color: green;
         }
     </style>
 </head>
@@ -58,7 +63,7 @@
             <th>year</th>
             <th>min</th>
         </tr>
-        <tr><td>1</td>
+        <tr class="goodmovie"><td>1</td>
         <td>Cars</td>
         <td>John Lasseter</td>
         <td>2006</td>
@@ -82,13 +87,13 @@
         <td>1995</td>
         <td>81</td>
         </tr>
-        <tr><td>5</td>
+        <tr class="goodmovie"><td>5</td>
         <td>Toy Story 3</td>
         <td>Lee Unkrich</td>
         <td>2010</td>
         <td>103</td>
         </tr>
-        <tr><td>6</td>
+        <tr class="goodmovie"><td>6</td>
         <td>Monsters, Inc.</td>
         <td>Pete Docter</td>
         <td>2001</td>
@@ -100,25 +105,25 @@
         <td>2011</td>
         <td>120</td>
         </tr>
-        <tr><td>8</td>
+        <tr class="goodmovie"><td>8</td>
         <td>Up</td>
         <td>Pete Docter</td>
         <td>2009</td>
         <td>101</td>
         </tr>
-        <tr><td>9</td>
+        <tr class="goodmovie"><td>9</td>
         <td>Finding Nemo</td>
         <td>Andrew Stanton</td>
         <td>2003</td>
         <td>107</td>
         </tr>
-        <tr><td>10</td>
+        <tr class="goodmovie"><td>10</td>
         <td>The Incredibles</td>
         <td>Brad Bird</td>
         <td>2004</td>
         <td>116</td>
         </tr>
-        <tr><td>11</td>
+        <tr class="goodmovie"><td>11</td>
         <td>Ratatouille</td>
         <td>Brad Bird</td>
         <td>2007</td>
@@ -136,7 +141,7 @@
         <td>2013</td>
         <td>110</td>
         </tr>
-        <tr><td>14</td>
+        <tr class="goodmovie"><td>14</td>
         <td>Toy Story 2</td>
         <td>John Lasseter</td>
         <td>1999</td>
