@@ -40,13 +40,18 @@
 
 -->
 
-<link rel="stylesheet" type="text/css" href="main.css"/>
+
 <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Movies</title>
     <style>
         table td:hover {
         background-color: black;
         color: white;
+        }
+        .header{
+            background-color: blue;
+            color: white
         }
         .goodmovie {
             background-color: green;
@@ -54,9 +59,10 @@
     </style>
 </head>
 
+
 <body>
-    <table style="width: 1660px; background-color: yellow; color: purple; white-space: nowrap; margin-left:2px; margin-right: right 2px">
-        <tr style="background-color: blue; color: white">
+    <table>
+        <tr class="header">
             <th>id</th>
             <th>name</th>
             <th>directory</th>
